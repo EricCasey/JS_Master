@@ -1,0 +1,272 @@
+
+-------------------------CONSOLE COMMANDS---------------------------
+
+Command Description
+cd  -- Change directory.
+ls --  List files and directories in current directory.
+pwd -- Display the path of the current directory.
+touch -- Create a file.
+mkdir -- Create a directory.
+rm  -- Remove a file or directory. Warning: deleting a file or directory with this command is permanent!
+cp --  Copy a file or directory.
+mv  -- Move or rename a file or directory. old name - new name
+echo  -- Print text to STDOUT.
+cat -  Display contents of a file.
+more  -- Display contents of a file, starting at the top and letting the user scroll down.
+less --  Display contents of a file in an even more interactive way.
+head -- Display the first part of a file.
+tail -- Display the last part of a file.
+man -- Display documentation about a command.
+<command> -help   ---- give you help + options for a command
+
+
+$ clear -- clears terminal
+ls -lah <filename>  -- lists info about files ******************
+rm -r  -- dangerous delete command
+control + c -- forces a process to abort
+env  -- shows info about current environment
+open .  -- opens folder in finder! COOL
+
+ftp  <enter> open <IP> username password enter ls   ---- this will open the FTP server cool!
+ascii or bin ----- to transfer in ascii or binary
+
+Virgtual Machine
+vagrant up  -- starts VM
+vagrant ssh  -- logs into machine
+logout -- logout
+vagrant status  -- shows status
+vagrant halt  -- shuts down VM
+ git-it  --- runs NoteSchoool Git course
+ javascripting  -- runs nodeschool javascripting course
+
+
+Customization : run  --> $ source ~/.bashrc
+>changes your name
+
+
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  First long list of Ligthouse Prep Learning Outcomes  **************
+
+> can explain what is meant by "command line interface"
+check
+> can explain benefits/tradeoffs of CLI vs GUI
+check
+> can explain what is meant by "shell"
+
+> can explain what is meant by "shell prompt" and its common elements (user, host, current dir)
+$ <-- SHhell Prompt
+on your actual terminal forget everything before the $
+
+
+> can explain what "~" represents
+~  : Tilde represents the home directory
+
+
+> can access the shell of their OS
+check
+
+
+> can effectively navigate around a unix system (cd, popd, pwd, ls, ../, ~, ./)
+ls : list finls and folders
+pwd : print working directory tells you your current position
+.. : go back one directory
+~  : represents home direcotry
+popd :
+cd  : change directory
+cd /  :  go to root directory
+cd ./  :  same level (current directory)
+cd ..  : up one level
+cd ../..  : up two levels
+
+
+
+> can explain what "cd" does
+cd : Change direcetory change working directory
+
+
+> can explain what "ls" does and the effect of common options
+li : list files and dieectories
+
+
+> can explain what "man" does
+man  :  stands for manual.. to find out which flags a cammand uses and what they mean !! use q to exit !!
+
+> can effectively manage files and folders (touch, cp, rm, mv, mkdir, rmdir)
+mkdir : make directory (forder)
+touch: creates new file
+cp : copy a file or directory
+mv : move or rename a file or directory
+echo :  print text to STDOUT
+rm  : removes file or folder !! DANGEROUS !!
+
+
+
+
+> can force exit a program (CTRL+C)
+Check
+
+
+> can explain the difference between regular files and executables
+executables are hidden and usually in bin folders
+
+> can identify location of executable (which)
+which  --  searches for a command and spits out it's path
+Usually in a 'bin' folder
+
+> can explain what is meant by "session"
+the state of being logged in to a computers command line intergace
+
+> can explain what is meant by "environment variables" and why they are used
+depending on where you are and what has been asked to run environment variables may change
+
+> can set and make use of environment variables inline with a command
+Set with VARIABLE="something"
+Use with $VARIABLE
+
+> knows the location of their environment configuration file (ex. ~/.bashrc)
+Check <-- made it myself
+
+> can explain what the $PATH variable is used for
+a colon-delimited list of directories that contain executables looks like :
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+
+> can reload the environment config file in their current session (source)
+
+
+> can list and explain the three levels of ownership (user, group, other)
+
+
+> can list and explain the three access types (read, write, execute)
+r  : read
+w  : write
+x  : execute
+
+
+
+> can read a permission string (ex. drwxrwxrwx)
+
+# +-------- Directory or not
+# |  +------- User Read, Write, Execute
+# |  |   +------- Group Read, Write, Execute
+# |  |   |   +----- Other Read, Write, Execute
+# |  |   |   |   +--- The name of the user
+# |  |   |   |   |     +--- The name of the group
+# |  |   |   |   |     |
+# d|rwx|rwx|rwx user group
+
+
+
+> can set permissions for a file or directory (chmod)
+chmod  : setting permisions on a file or directory
+$ chmod g+w sample.txt  <-- adds write access to file for group
+
+u_w  : user (owner) can wrrite
+o+w  : orther can write
+g+r  : group can read
+a+x  : all can execute
+
+or you can input those combinations above as 3-digit numbers
+
+Number  Permission
+0 No permission granted.
+1 Can execute.
+2 Can write.
+3 Can write and execute (2 + 1 = 3).
+4 Can read.
+5 Can read and execute (4 +1 = 5).
+6 Can read and write (4 + 2 = 6).
+7 Can read and write and execute (4 + 2 + 1 = 7).
+
+
+
+> can set ownership for a file or directory (chown)
+
+
+> can explain what "sudo" is for and what it does
+allows you to have root access temporarity
+
+> can explain what "su" does
+
+
+> can change users (su)
+
+
+> can effectively inspect contents of files (cat, more, less, head, tail)
+  cat -- prints all contents of a folder
+  head  --  prints out the first few lines
+
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Second long list of Ligthouse Prep Learning Outcomes  **************
+
+
+
+>  can connect to vagrant machine
+check
+
+
+>  can effectively navigate around a unix system (cd, popd, pwd, ls, ../, ~, ./)
+check
+
+
+>  can effectively manage files and folders (touch, cp, rm, mv, mkdir, rmdir)
+check
+
+
+>  can print a value to stdout / the console
+>  can explain the difference between "declaring" and "defining" a variable
+>  can define/assign variables
+>  can create strings
+var something = "thisis a string";
+
+
+>  can get the length of a string
+console.log(variable.length)
+
+
+>  can update the value of an existing variable
+>  can replace a subset of a string
+>  can create integers and floats
+>  Can explain the difference between an integer and a float
+>  can list and explain the available number types in their language
+>  can round a number
+>  can perform basic arithmetic on numbers (+, -, /, *, %)
+>  can convert a number into a string
+>  can explain the syntax of a for loop
+>  can use for loops
+
+
+
+>  can explain what an "array" is and what it is used for
+var something = ['string bit 1','string bit 2', ...]
+
+>  can create an array
+var something = ['string bit 1','string bit 2', ...]
+
+
+>  can filter an array to only contain certain values (filter)
+>  can access an element in an array by index ([])
+>  can use a for loop to iterate through values in an array
+
+
+
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Fourch long list of Ligthouse Prep Learning Outcomes  **************
+
+
+>>>>>>>>>>>   Javascript   <<<<<<<<<<
+
+
+Continued in Javascript.txt

@@ -1,0 +1,60 @@
+SSSVVVVVGGGGG
+
+USE SKETCH MOTHERFUCKER
+
+Add .svg to HTML file buy including .svg file in an <img src="blahblah.svg"> tag
+BUUUUTTT if you want to animate things the xml SVG code must be inline <---
+KEEP cooraintates inline and everything else in the CSS
+
+IN .SVG file vvvvv
+
+<svg height="200px"    //this creates a 'canvas' sort of thing (non-respoonsive) called the viewport
+      width="200px"     //  vv or you can use viewBox
+      viewBox="originX originY PosX posY"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+>
+<rect height="50"
+      width="20"/>
+
+<rect height="10"
+      width="20"
+      x="10"
+      y="10"
+      fill="white"
+      stroke="black"
+      stroke-width="2"
+      />
+
+<ellipse
+
+/>
+
+<circle
+r="3"   // radius
+cx=
+cy=
+
+/>
+
+
+
+
+ <polygon
+  points="12,33 23,54 64,34"    //creates triangle
+  />
+
+<g class="groupofstuff">  this is a group tag ! </g>
+
+
+</svg>
+
+
+
+if you need to use the same icon more than once add the <symbol id="thing">bits go here</symbol>
+THEN you create a new SVG canvas but use a <use xlink:href="#thing"/> must be ID not class
+
+
+
+
+

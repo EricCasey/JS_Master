@@ -1,0 +1,35 @@
+cssCrossCourty.txt
+
+
+
+>>>>>>  CSS Specificity
+
+(0, 0, 0, 0)
+
+the order goes class, element, id, inline
+
+
+**DRY stands for 'Dont Repeat Yourself'
+
+
+Best way to horizonatally center something correctly ---->   div {width: 100px ; margin: auto auto;}
+
+>>>>   :PSEUDO CLASSES
+
+:hover    ----
+:focus    -----
+:nth-child(even)    ----  picks every other element
+:active     ----
+:visited
+:first-child
+:last-child
+:only-child
+
+>>>>>>>>  PSEUDO ELEMENTS
+
+:first-letter
+:first-line
+:before  <------ !!!!! MIGHT BE VERY USEFUL
+
+
+content property prints content onto page from css

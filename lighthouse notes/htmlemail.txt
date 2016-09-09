@@ -1,0 +1,7 @@
+HTML EMAILS
+
+
+the code is overridden by email client preprocessors
+
+you must use abcolute urls using http:// rather than the direct path.
+

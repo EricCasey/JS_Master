@@ -1,0 +1,114 @@
+jQuery.txt
+
+Notes from CodeSchool Jquery course
+
+Part 1
+
+What is JQuery?  change content based on user actions. The more universally used language to access the DOM on all browsers
+
+Uses
+1. find elements in HTML document
+2. change HTML content
+3. listen to what a user does and react accordingly
+4. animate content on hte page
+5/ talk over the network to fetch new content
+
+DOM or Document OBject Model   ----   organizes tags like a cascading tree
+
+
+jQuery("h1"); is the same as $("h1");
+
+
+METHODS
+
+$("h1").text();   ----   returns the text within H1
+$("h2").text("this is now change");  ---- this replaces the text in H1
+$("div").find("li");     ---- finds that element within the other
+
+
+
+
+
+$(document).ready(function(){   <code>    });    ---- this runs the function only when the document is ready
+
+make sure you load JQuery into your file to use it!!!!!!
+
+SETUP
+    <script src="jquery.min.js"></script>
+    <script src="myapplication.js"></script>
+
+> means direct descendant
+
+PSEUDO ELEMENTS
+:first     ----
+:last     ----
+:odd     -----
+
+\
+
+this    <---- refers to the item that was pressed;
+
+
+NEW ATTRIBUTES!
+data-'name'     ---- in html: <li data-price='399.99'> adds aditionail information about an element (used with jQuery)
+              > JQUERY OBJECT METHODS ----> .data(<name>) to pull the attribute  - or - .data(<name>, <value>) to set
+
++    --- joins strings?   ALSO if placed at the begining of a string it'll be converted to a number +$
+
+
+.filter    ----
+.on
+.removeClass  ---
+.addClass
+.val()
+.text()    ==== changes thext in the thing?
+.show()    ----
+.hide()    ---
+
+event.preventDefault();   --- prevents browsers defaults?
+
+
+LISTENING TO DOM EVENTS
+
+.slideDown()     -----
+.slideUp()       -----
+.slideToggle()    ----   slides up and down
+
+.on('event', 'elementname', function)    ----  has multiple events you can use
+
+MOSUE EVENTS
+click
+focusin
+mousedown
+mousemove
+mouseover
+mouseenter    ---- acts like hover
+dblclick
+focusout
+mouseup
+mouseout
+mouseleave
+
+KEYBOARD EVENTS
+
+FORM EVENTS
+
+listening for a click on an element:
+$('.elementClass').on('click', 'button element', function(){});
+
+
+WORKING WITH CSS
+
+.css(<attr>, value)
+.css(<attribute>)
+.css(<object>)
+
+.toggleClass('highlighted')    ---- best way to swithc out classes
+
+ANIMATIONS
+
+.animate()    --- then you can send in styles and it'll animate to that setting
+
+.hasClass()    --- checks if an element hold a chosen class
+
+

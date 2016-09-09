@@ -1,0 +1,67 @@
+CSSanimationnotesCS.txt
+
+**** LOTS OF ANIMATION STUFF CAN BE FOUND IN THE HTML5 CSS3 TEXT FILE
+
+
+ ------changes the color of a background over the course of 0.2s
+transition: background-color o.2s ease-in-out;
+transition: <property>(can be set to all properties) <duration> <timing-function> <delay>;
+*broken down
+transition-property: background color;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+transition-delay: 0.1s;
+
+
+
+------transitioning position
+
+making a button where text changes on hover
+
+.btn {
+  transition: all 0.4s;
+}
+
+.top.content {
+top: 0;
+}
+.bottom.content {
+top: 50px;
+}
+.btn:hover .top {
+top: -50px;
+}
+.btn:hover .bottom {
+top: 0;
+}
+.btn .content {
+transition: top 3s;
+}
+
+
+-----------   Keyframe animations!!!!
+
+@keyframes <name-animation> {
+  <step 1> {<property> : <value> ;}
+  <step 2> {<property> : <value> ;}
+  <step 3> {<property> : <value> ;}
+}
+
+#elementid {
+  animation: <name-anumation> <duration> <delay> <iteration> <tming function>;
+}
+
+example
+@keyframes swingingdohnutarms {
+  0% { transfrom: rotate(0deg);  }
+  100%  { transform: rotate(-10deg); }
+}
+
+#dohnutarm {
+  animation: swingindohnutarms 2s 0s infinite;
+}
+
+
+
+
+

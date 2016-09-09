@@ -1,0 +1,22 @@
+{
+  "name": "notchalk",
+  "version": "1.0.0",
+  "description": "description here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Caseyy",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricCasey/ChalkActivity.git"
+  },
+  "keywords": [
+    "pakcage"
+  ],
+  "bugs": {
+    "url": "https://github.com/EricCasey/ChalkActivity/issues"
+  },
+  "homepage": "https://github.com/EricCasey/ChalkActivity#readme"
+}

@@ -1,0 +1,37 @@
+angularnotes.txt
+
+
+
+Properties
+ng-app=""   ----   attaches the modlue to the page    -----   <html ng-app="store">
+ng-controller=""    ---- attach a Controller function to the page
+ng-show=""  /  ng-hide=""   ---- display or hide a section based on t/f of an expression
+ng-repeat='"'     ----- to repeat a section for each item in an Array
+ng-click=""    ---- changes a value on click
+ng-init="" sets  a value from the start
+ng-class=""     -----
+ng-model=""   ----
+
+DIRECTIVES
+a marker on an HTML tag that tells angular to run or reference some javascript code
+
+MODULES
+where we write peices of our augular application
+
+var app = angular.module('store',[]);      ----- then run it like you would any other .js file
+
+
+
+CONTROLLERS
+controls different areas of code scope?
+
+
+
+EXPRESSIONS (regular?)
+
++ Filters --> recipie = {{ data | filter:options }}
+{{product.price | currency}}   --- this will print out the number as a currency
+{{'octoagon gem' | uppercase}}    --- transfers everything to uppercase
+{{'my descriptiong' | limitTo:8}}   --- only outputs the frist 8 characters
+<li ng-repeat="product in store.products | limitTo:3>  --- limits number of <li> items displayed to 3
+<li ng-repeat="prudct in store.products" | orderBy:'-price'">  ----- sorts list elemtes by prrice value

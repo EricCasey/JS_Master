@@ -1,0 +1,248 @@
+
+>>>>>>>>>>>   Javascript   <<<<<<<<<<
+
+
+|  ..global variables
+|
+|  ..functions
+|    ..local variables
+|
+|
+|
+|
+|
+
+
+variables first
+variables are tentacles
+var one = 1, two = 2, three = 3;
+
+console.log ();   ----  prints string or variable
+console.log (typeof variable));   ---- returns the type of variable
+
+>>>Properties, pre-set Functions, methods
+.length   --- shows the length in characters of a variable
+.replace( change this , to this )    ---
+Math.round ()  ----  rounds a number
+Math.max ()   ---- returns the highest number
+confirm("shall we,then?");
+promt("input below", "...");
+isNan  ---- returns true if argument is given NaN
+.forEach()   - takes in a function and runs it for each peice of an array
+
+= operator can bue used at any time on existing variables to disconnect them from their current value
+*tip == Functions can be divided into those that are called for their side effects and those that are called for their return value
+
+LOOOOOOOOPPPss
+> first a counter variable is created to track the progress of the loop
+break;  ----  exits a loop (eg. if this then break)
+***Construct called switch in  javascript
+
+if (condition) { do this } elseif { do this other thing } else {   }
+
+-OldSKOOL
+for (var tracker = 0; until tracker = whatever; add to tracker) { do this }     <---- MUST USE ( ; ; )
+-newSKOOL
+for () { do this }
+
+
+while (x <= 12) {do this}
+
+do { someting } while ();
+
+
+>>>>>>>>  OPERATORS
+&&   ---- and
+||   ---- or
+!    ----- not
+
+>>>>>>>>>AAARRRRAAAAYYYYSSSS<<<<<<<<
+
+array[1][2]   --- gets the 3rd part of the 2nd array in an array
+
+
+
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Fourth long list of Ligthouse Prep Learning Outcomes  **************
+
+
+
+>  can start the node repl
+node  ---  in VM run node
+
+>  can force quit the node repl
+ctrl + c   ----- press twice to exit
+
+>  can list the primitive datatypes in their language
+things like single unit strings or numbers
+
+>  can create integers and floats
+integer   =  calculations with whole numbers
+
+
+>  can list and explain the available number types in their language
+
+>  can explain the difference between an integer and a float
+
+>  can perform basic arithmetic on numbers (+, -, /, *, %)
+4 + 45; enter   ----  will return 49
+
+>  can create strings
+var variable = "stringbit"   <--- string "" or ''
+
+>  can escape characters inside of a string
+\n  --- creates a new line in a string (enter)
+
+
+>  can concatenate strings
+console.log("con" + "cat" + "e" + "nate")
+console.log('this this ${variable}.')   <---- new feature!
+
+
+>  can print a value to stdout / the console
+>>
+>  can create a true and a false boolean
+console.log (3 > 2)
+// true
+
+
+
+>  can list common comparison operators and what they do
+&&   ---- and
+||   ---- or
+!    ----- not
+
+
+>  can use common comparison operators
+
+
+>  can explain how comparison operators work with different types
+
+>  can list common logical operators and what they do
+
+>  can use a ternary operator
+
+>  can use common logical operators
+
+>  can explain what "nil" is and why it is used
+
+>  can explain what "type coercion" is
+a set of rules where variable types are changed in an operation? like "6" to 6
+
+
+>  can explain how type coercion operates in their language
+javascript changes the type of a value based on the path of least resistance
+
+
+>  understands the difference between == and ===
+
+>  compares using === not ==
+
+>  understands the short-circuiting behaviour of AND and OR   =====     &&    ||
+
+>  can update the value of an existing variable
+
+>  modula operator
+  %  --- finds the remainder after division?
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Fifth long list of Ligthouse Prep Learning Outcomes  **************
+
+
+>  can explain what "procedures" are and why they are used
+
+>  can define a procedure
+
+>  can explain what "parameters" are and why they are used
+
+>  can explain the concept of a return value
+
+
+>  can explain what is meant by "scope"
+meaning that there are local and global variables where local cannot see global varialbes etc.
+
+>  can explain how scope works in their language
+
+>  can create a github repo
+Code Reuse and Functions in prep course explains it well
+
+>  can clone a remote repo
+
+>  can perform basic git commands and work through a git cycle (init, status, add, rm, commit, reset, log)
+
+>  can use node to execute a file
+node program.js   ----- that's how you run it
+
+>  can explain the concept of a "side effect" and give an example
+side efects change the interna state of the machine in a way that will affect the statments that come after it
+showing a dialog box or writing to the screen is a side effect
+
+>  can check if a number is even or odd
+Using modula operator
+
+>  can create integers and floats
+
+>  can perform basic arithmetic on numbers (+, -, /, *, %)
+check
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Sixth long list of Ligthouse Prep Learning Outcomes  **************
+
+
+>  can explain what an "array" is and what it is used for
+
+>  can create an array
+
+>  can access an element in an array by index ([])
+
+>  can explain what is meant by "zero-indexing"
+
+>  can access properties of an instance
+
+>  can explain the difference between a "property" and a "method"
+
+>  can list available array manipulation function and their purpose (ex. join, push)
+
+>  can use methods of an instance
+
+>  can explain what a "map" is and what it is used for
+
+>  can give examples of when an map would be used>
+
+>  can create a map
+
+>  can access an element in a map
+
+>  can add an element to an existing map
+
+>  can delete an element from an existing map
+
+>  can check if a map contains a certain key
+
+>  can identify which types are mutable and which are immutable
+
+>  can explain what is meant by "mutable" and "immutable"
+
+>  can add an element to the end of an array (push)
+films.push("Jurassic Park");    adds that film to the end of the films array
+
+>  can get the length of an array
+.length   ---
+
+
+
+Function expressions & anonymous functions
+
+var diff = function (a, b) {
+  //do some shit
+};
+diff(3, 5);

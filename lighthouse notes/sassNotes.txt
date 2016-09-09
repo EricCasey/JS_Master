@@ -1,0 +1,9 @@
+CODESCHOOL Sass NOTES
+
+Saved in .scss file (sassy CSS)
+
+take original CSS and put it into Sass code
+
+now you can use // comments in scss but don't get shown when the stylesheet is used
+
+

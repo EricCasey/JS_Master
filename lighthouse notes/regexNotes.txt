@@ -1,0 +1,35 @@
+90regexNotes.txt
+
+CODESCHOOL REGULAR EXPRESSION COURSE
+
+/regular expressions happen between these backets!   /    modifier goes here!
+
+>>>>>>   Operators
+|    ----    or operaotr
++    ---- plus operator, this allows to match the previous letter infinite times
+
+
+>>>>>>>    Modifyers
+/i    ---  sets as case insensitive
+/g    --- global modifyer meaning that it will look on every line for every instance
+/m    ---- multi line ancher so itll check every line
+
+**If you capitalize the letter it will reverse the logic
+\s    --- this means whiteapce character
+\w    ---- same as /[a-zA-z0-9]/
+\b    ----- sets boundaries around words
+\d    --- a number
+
+.   --- is a wild - card unless set to \.
+?    ---- makes the proceeding pattern optional    \? is literally a ?       (this)?  --- wlll be optional
+
+(   )    ----  use backets just like math
+
+^    ---- means start at the end of the string (also means not when inside a [])
+$   ---- means stop at the end of the string
+
+
+ {min, max}     ---- sets the number of chracters to be matched     \w{0,} is the same as \w*
+
+?:    --- at the begining if a parethesiese for make it a non-caputre  group
+

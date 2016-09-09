@@ -1,0 +1,133 @@
+html5notes.txt
+
+HTML 5 NOTES
+
+For ultra-basic stuff look to index.html of casey.works/v2
+
+
+
+
+
+>>>>>>>FORMS
+
+NEW INPUT TYPES!
+
+<input type="search"></input>   ---   now specifies a search input and pulls up mobile keyboard with "search" button
+<input type="email"></input>     ----  now pulls up @ and . on moble
+<input type="url"></input>     ---- pulls up http and / in mobile keyboard
+<input type="date"></input>     ---   mobile iOS datepicker
+<input type="tel"></input>    ---- pulls up a mobile keyboard for phones
+<input type="number"></input>   ----   pulls up the nuumberkeys on mobile and allows you to increae and decease by lcick
+<input type="range"></input>    ---   slider to change the number value
+<input type="month or! week"></input>    ---   input type allows you to chose by week and month
+<input type="time"></input>     ---- allows you to pick a time (no timezone)
+<input type="datetime-local"></input>    ----   allows you to pick date and time in local hours
+<input type="color"></input>   ---- pops up color picker
+
+DATALIST     vvv--- htis spits out a form field that auto-fills the datalist
+<input type="text" list="mustmatch" />
+<datalist id="mustmatch">
+<option value="chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+
+NEW FORM ATTRIBUTES
+placeholder="enter your email"    -----  add this to an input and it'll be greyd out
+autofocus    ---- just add this to an input and it'll automaticall be selected
+requred   --- add this to an input it'' be rewuired to fill out that field
+pattern=""    ----   takes a regular expression and makes a field haveto match the pattern for it to go thru
+
+NEW ATTRIBUTES!
+data-     ---- example: <li data-price='399.99'> adds aditionail information about an element (used with jQuery)
+              > JQUERY OBJECT METHODS ----> .data(<name>) to pull the attribute  - or - .data(<name>, <value>) to set
+
+
+>>>>>>>>> PART 4  NEW CSS3 STYLES
+
+border-radius: 15px;    ----
+box-shadow: <inset> <offser-x> <offset-y> <blur-radius> <spread-radius> <color>;   ----  thsoe are different arguments
+text-shadow:  <offser-x> <offset-y> <blur-radius>  <color>; ---- adds a shadow the the text
+box-sizing: content-box: OR padding-box: OR border-box;
+
+background-image: url(bg1.png), url(bg2.png);    ----   one background in front of another
+background-position: top left, center right;
+
+color: rgba(0,0,0,0.75)   - sets color to back with 75% opacity
+color: hsla(240, 100%, 50%, 0.75)   --- sets color in a similar way but hsla might be easier to use
+
+opacity: 0.45;     --   everything you change includes everythign nested inside
+
+background: linear-gradient(<angle> to <side-or-coner>, <color-stop>)    ---- a wayto create color gradients in elements
+
+background: raidal-gradient(<shape> <size> at <position>, <color-stops>)    -----   creates a radial gradient
+
+>>>>>>>> PART 5 FONTS and INTERACTIONS
+
+@font-face {
+  font-family: 'whatwewanttonameit';
+  src: url('font path');
+
+}
+then in element
+.element {
+
+}
+
+transform: translate(<tx>, <ty>)     ----   if you don't specify the value it'll be 0
+translateY(y)
+translateX(x)
+
+transform: rotate(45deg);
+
+transform: scale(<sx>, <sy>);    -   grows an element
+scaleX
+scaleY
+
+transform: skewX()
+skewY
+
+ ------changes the color of a background over the course of 0.2s
+transition: background-color o.2s ease-in-out;
+transition: <property>(can be set to all properties) <duration> <timing-function> <delay>;
+*broken down
+transition-property: background color;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+transition-delay: 0.1s;
+
+
+
+
+
+
+
+********************
+MOBILE DESIGN TIPS
+
+
+target / context = %
+^
+for % or ems
+
+
+>  Media Queries
+
+these go in a grounp at the bottom of your main stylesheet
+
+@media screen and (max-width: 320px) { styles go here}
+
+In respoinsive design you use multiple media queries at different breakpoints! not that difficult!
+
+
+
+
+<picture>   <--- picturefill.js needed
+<video>    <---- HTML5
+
+
+
+
+
+
+

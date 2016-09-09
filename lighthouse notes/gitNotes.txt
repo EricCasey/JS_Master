@@ -1,0 +1,197 @@
+****************
+CODESCHOOL GIT REAL NOTES
+****************
+
+git status ----
+
+$ git remote -v  --- this displays the location of the remote repo of a folder
+$ git remote remove origin  --- removes the remote reference of the directory
+
+$ git reset HEAD <filename>   --- removes the file from stage
+$ git commit -a -m "blah blah blah"   ----  quickly stages and commits files
+$ git reset --soft HEAD^   -----   rolls back last commit
+
+$ git commit --amend -m "override commit message ONE M GODDAMNIT!"
+
+--working with remotes--
+$ git remote add <name> <address>    ---- adds new remote
+$ git remote rm <name>    --- removes remote
+$ git push -u <name> <branch> <-usually master ---  push to remote
+
+
+
+***********************************************************************************
+***********************************************************************************
+*************  Third long list of Ligthouse Prep Learning Outcomes  **************
+
+GIT COMMANDS
+
+
+git config --global user.username EricCasey   ---- this sets you(github) to your instance.
+
+git remote add origin https://github.com/EricCasey/hello-world.git   ---- links current folder with remote repository
+git push origin master   --- pushes files to master in repository
+git commit -m "<commit message>"   ----
+git init   --- mark folder as a local repository. *installs .git file*
+
+
+git status  -- gets status
+git add filename.txt   ---  add it to staging area
+git log  --
+git push   --- push changes to repo
+git reset  === removes files from staging area
+git diff --- shows all new changes
+git clone https://github.com/EricCasey/patchwork  --- clones a fork locally
+
+add collaborator by username on browser
+
+FOSS : Free Open Source Software
+purpose of .git folder -- marks a folder as a repository
+
+
+Add remote connections
+$ git remote add <REMOTENAME> <URL>
+
+Set a URL to a remote
+$ git remote set-url <REMOTENAME> <URL>
+
+Pull in changes           ****** It's good to pull often!
+$ git pull <REMOTENAME> <BRANCHNAME>
+
+View remote connections
+$ git remote -v
+
+Push changes
+$ git push <REMOTENAME> <BRANCH>
+
+You can create and switch to a branch in one line:
+$ git checkout -b <BRANCHNAME>
+
+Create a new branch:
+$ git branch <BRANCHNAME>
+
+Move onto a branch:
+$ git checkout <BRANCHNAME>
+
+List the branches:
+$ git branch
+
+Rename a branch you're currently on:
+$ git branch -m <NEWBRANCHNAME>
+
+Verify what branch you're working on
+$ git status
+
+
+
+
+>  can explain what "version control / source code management" is and why it is used
+>  can explain what is meant by "repository"
+the folder, server, computer etc where your filel are stored
+
+>  can explain the difference/benefits/tradeoffs between centralized and distributed version control system
+centralized requires a web, sistributed requires a LAN
+
+>  can distinguish between git and github
+
+
+>  can explain what "github" is and why it is used
+GitHub.com is the main remote repository on githubs servers
+
+
+>  can list and explain the function of fundamental git commands (init, status, add, rm, commit, reset, log)
+git status -- gives us a status of staging area?
+git add  =---
+git reset  === removes files from staging area
+git init  -- initiates the current directory as a repository
+
+>  can explain the purpose of the ".git" folder
+
+
+>  can perform basic git commands and work through a git cycle (init, status, add, rm, commit, reset, log)
+
+
+>  can explain what it means for a file to be "tracked" or "untracked"
+untracked are new but not added to staging area
+tracked are in staging area
+
+>  can explain git concepts: commit, working directory, INDEX / staging area, HEAD
+
+
+>  can add a remotes (remote)
+
+
+>  can explain what "remotes" are why they are used
+
+
+>  can explain what "origin" means
+
+
+>  can list and explain common commands to interact with remotes (remote, clone, pull, push, fetch)
+
+
+>  can push a branch to a remote (push)
+
+
+>  can set upstream tracking branch (git push -u origin master)
+
+
+>  can pull updates from a remote (pull)
+
+>  can explain what is meant by "repository"
+the fodler where your linked project lies
+
+>  can explain what "version control / source code management" is and why it is used
+used to add and remove new and old code from a project during it's life-cycle
+
+
+>  can perform basic git commands and work through a git cycle (init, status, add, rm, commit, reset, log)
+
+>  can view diff between current state and last commit (diff)
+git diff --- shows all new changes
+
+>  can explain what "github" is and why it is used
+
+>  can distinguish between git and github
+
+>  can create a github account
+got it
+
+>  can configure the global git username and email
+
+>  can explain what "remotes" are why they are used
+
+>  can list and explain common commands to interact with remotes (remote, clone, pull, push, fetch)
+
+>  can create a github repo
+
+>  can explain what .gitignore is for and why it is used
+a list of files that Git should not track, for instance, files with passwords!
+
+>  can add a remotes (remote)
+
+>  can push a branch to a remote (push)
+
+>  can explain what "forking" and a "fork" is and why they are used
+
+>  can fork a repo
+
+>  can clone a remote repo
+
+>  can explain what "branches" are and why they are used
+
+>  can explain what "master" means
+
+>  can create a branch (git checkout -b branch_name)
+
+>  can checkout a branch (git checkout branch_name)
+
+>  can explain what is meant by "collaborator" and why they are used
+
+>  can pull updates from a remote (pull)
+
+>  can explain "pull requests" and why they are used
+
+>  can create a pull request
+
+>  can merge a branch (git merge branch_name)

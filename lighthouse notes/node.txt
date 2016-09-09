@@ -1,0 +1,30 @@
+NODE JS IS FOR COMMUNICATING WITH A SERVER USING CALLBACKS
+
+loads in things parralel
+
+Node.js is non-blocking as opposed to blocking languages
+
+
+debugger    ----- just add this line be able to use
+node debug <filename>    ----- it will stop at the debugger line.
+typeof(<variable>)    ---- returns the type
+object.keys(myObject)    ---- returns an array of your keys
+
+
+STRING INTERPoLATION
+console.log(`${variable} stringy part ${other variable}`)
+prints: v1 stringy part v2
+
+
+--------- OBJECTS -------
+(python: called dictionary, Ruby: hash, PHP: associative array)
+object.keys(myObject)    ---- returns an array of your keys
+object.aesomeness = 5   --- adds {awesomeness: 5}
+object.['movies'] = movie    ----
+
+this.['movies']   ---- refers to the objects 'scope'? while inside the objectLength
+
+Anonymous Functions & Callback Functions
+* anonymous functions are not named
+* callback functions are functions that are never invoked but called by other function as a parameter.
+* higher-order functions are ones that take in other functions or return functions.
