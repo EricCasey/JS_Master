@@ -44,7 +44,8 @@ Customization : run  --> $ source ~/.bashrc
 >changes your name
 
 
-
+CURL
+curl -i ipinfo.io  --- returns cool network + location info
 
 
 ***********************************************************************************

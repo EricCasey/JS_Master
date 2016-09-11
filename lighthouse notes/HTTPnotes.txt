@@ -1,0 +1,6 @@
+HTTP... WTF IS TIIS
+
+
+
+stateless protocol --- where the server doesn't save anythign and just fires back ever request
+stateful protocol ----where a server saves the users's actions

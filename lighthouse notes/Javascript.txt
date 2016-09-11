@@ -43,12 +43,18 @@ if (condition) { do this } elseif { do this other thing } else {   }
 -OldSKOOL
 for (var tracker = 0; until tracker = whatever; add to tracker) { do this }     <---- MUST USE ( ; ; )
 -newSKOOL
-for () { do this }
+for (x in blahrray) { do this }
 
 
 while (x <= 12) {do this}
 
 do { someting } while ();
+
+Ternary conditional
+var x = truefalsevar && othertruefalse ? <var-func-str> : <var-func-str>
+if truevalvar is true it will ^ - false it will ^
+can use comparison operators at the start.
+THEY CAN BE NESTED WHICH IS DOPE
 
 
 >>>>>>>>  OPERATORS
@@ -61,6 +67,7 @@ do { someting } while ();
 array[1][2]   --- gets the 3rd part of the 2nd array in an array
 
 
+<<<<<<MODULES>>>>>>>
 
 
 
