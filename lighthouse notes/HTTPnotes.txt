@@ -1,6 +1,35 @@
 HTTP... WTF IS TIIS
 
+>>> Hypertext Transfer Protocol <<<
 
-
-stateless protocol --- where the server doesn't save anythign and just fires back ever request
+stateless protocol --- where the server doesn't save anything and just fires back ever request
 stateful protocol ----where a server saves the users's actions
+
+
+port   --- no limit to the number of doors you can use to access a server
+
+Express.js   ----
+
+
+127.0.0.1    --- this is always your own IP address
+
+-- Default ports --
+HTTP: 80 / HTTPS: 443
+FTP: 21
+SMTP: 25
+SSH: 22
+
+Method + Path + header  ---- required for a request
+
+
+STATUS CODES
+100 series -- informational
+200 series -- ok
+300 series -- redirection
+  > 301 = moved permanenetly
+  > 302 = moved temporarity
+400 series -- client error
+ > 401 unauthorized
+ > 403 forbidden
+ > 404 not found
+500 series -- server error
