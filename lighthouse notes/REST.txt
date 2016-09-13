@@ -1,0 +1,16 @@
+Representational State Transfer --> REST
+
+
+HTTP is stateless while REST is restful? (remembers)
+
+CRUD - create read update & delete (over hTTP)
+
+
+CREATE
+> POST /tunes   // creates tunes
+
+READ
+> GET /tunes    // reads /tunes
+
+UPDATE
+> PUT /tunes      // 

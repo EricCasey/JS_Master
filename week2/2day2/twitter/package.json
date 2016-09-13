@@ -1,0 +1,15 @@
+{
+  "name": "twatter",
+  "version": "0.0.1",
+  "description": "twitter application",
+  "main": "index.jx",
+  "scripts": {
+    "test": "nowp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wef"
+  },
+  "author": "",
+  "license": "ISC"
+}

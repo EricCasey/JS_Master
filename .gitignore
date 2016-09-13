@@ -3,4 +3,5 @@
 .vagrant
 Vagrantfile
 *.png
-
+.env
+node_modules
