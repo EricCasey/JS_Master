@@ -6,6 +6,7 @@
 var request = require("request");
 var fs = require("fs");
 var chalk = require('chalk');
+var newModule = require('./my-module')
 
 function getDLRepoContribz(repoOwner, repoName, callback) {
 

@@ -1,0 +1,22 @@
+{
+  "name": "playingwithmochachai",
+  "version": "0.0.1",
+  "description": "playing with it yall",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nope"
+  },
+  "keywords": [
+    "yeah"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

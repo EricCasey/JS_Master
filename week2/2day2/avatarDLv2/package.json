@@ -1,0 +1,20 @@
+{
+  "name": "githubavatardl",
+  "version": "0.0.2",
+  "description": "this project gets and downloads github avatars based on two parameters, user and repo name",
+  "main": "download_avatar.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EricCasey/Lighthouse/tree/master/week2/2day2/avatarDLv2"
+  },
+  "author": "EricCasey",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "clear": "0.0.1",
+    "mocha": "^3.0.2"
+  }
+}
