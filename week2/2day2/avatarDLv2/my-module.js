@@ -18,3 +18,7 @@ module.exports = {
          });
     }
 }
+
+
+// NEXT STEPS <--
+//> Add file system i.e. avatars/username/repo/file.png

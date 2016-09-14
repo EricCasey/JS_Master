@@ -19,8 +19,8 @@ function getDLRepoContribz(repoOwner, repoName, callback) {
             bearer: process.env.BEARER_TOKEN, // token saved in newModule (my-module.js)
         },
         headers: {
-            'User-Agent': 'Eric goddamn Casey',
-        };
+            'User-Agent': 'TRON',
+        }
     };
 
     var fileCount = 0;
@@ -32,7 +32,7 @@ function getDLRepoContribz(repoOwner, repoName, callback) {
         var data = JSON.parse(body); // parses JSON data for formatting / readability
 
         if (response.statusCode === 401) {
-            throw Error("ACCESS DENIED!\n");
+            throw Error(`ACCESS DENIED!\n`);
         } else if (!fs.existsSync(newModule.env)) {
             throw Error(`YOU DONT HAVE A .env FILE!`);
         };
@@ -57,7 +57,7 @@ function getDLRepoContribz(repoOwner, repoName, callback) {
                     }) // calls the download function from the module
             }; // end of for loop url bulder loop
         }; // end of else
-        console.log(chalk.yellow(`3 DOWNLOADING ${data.length} IMAGES!\n***\n ${chalk.red('#')} --- ${chalk.red('Completeness')}`))
+        console.log(chalk.yellow(`3 DOWNLOADING ${data.length} IMAGES!\n***\n ${chalk.red('#')} --- ${chalk.red('%')}`))
     }); // end of request.get
 }; // end of getDLRepoContribz
 
