@@ -71,6 +71,26 @@ array[1][2]   --- gets the 3rd part of the 2nd array in an array
 
 
 
+>>>>>>>>>>>
+>>>>>  ES6!
+>>>>>>>>>>>
+
+
+let <var> =   --- use let if you rebind the variable at any point
+const <var> =   --- const should be unchanging variable
+var <var> =    --- use this to show that the code is old
+
+String Interpolation
+> Uses ` accent grave
+> can be multi lie without \n
+> import variables into it with ${}
+> can be tagged?
+
+
+
+
+
+
 
 ***********************************************************************************
 ***********************************************************************************

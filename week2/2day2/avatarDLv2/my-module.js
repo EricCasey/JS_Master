@@ -5,7 +5,7 @@ var fs = require('fs'),
 module.exports = {
     env : '.env',
     directory: 'avatars',
-    download: function(url, filename, callback2) {
+    download: function(url, filename, cb2) { // it won't let me declare this function with => for some reason.
 
         if (!fs.existsSync(this.directory)) {
             fs.mkdirSync(this.directory);
@@ -13,7 +13,7 @@ module.exports = {
          }
 
          request.head(url, function(err, res, body) {
-             request(url).pipe(fs.createWriteStream(`avatars/${filename}`)).on('close', callback2);
+             request(url).pipe(fs.createWriteStream(`avatars/${filename}`)).on('close', cb2);
 
          });
     }
@@ -22,3 +22,4 @@ module.exports = {
 
 // NEXT STEPS <--
 //> Add file system i.e. avatars/username/repo/file.png
+//>

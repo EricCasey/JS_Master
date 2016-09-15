@@ -1,0 +1,43 @@
+
+****************************
+*****   GENERAL ************
+****************************
+
+HTTP is stateless while REST is restful? (remembers)
+
+CRUD - Create Read Update Delete is a set of operations performed on data records. This applies mainly when dealing with databases.
+
+REST -- Representational State Transfer is a set of conventions and practices in web development that deals with accessing and manipulating resources over HTTP.
+
+CRUD means the basic operations to be done in a data repository. You directly handle records or data objects; apart from these operations, the records are passive entities. Typically it's just database tables and records.
+REST, on the other hand, operates on resource representations, each one identified by an URL. These are typically not data objects, but complex objects abstractions.
+
+
+CREATE
+> POST /tunes   // creates tunes
+
+READ
+> GET /tunes    // reads /tunes
+
+UPDATE
+> PUT /tunes      //
+
+
+
+****************************
+*****   REST    ************
+****************************
+
+REST -- Representational State Transfer is a set of conventions and practices in web development that deals with accessing and manipulating resources over HTTP.
+
+
+
+
+
+
+
+****************************
+*****   CRUD   ************
+****************************
+
+CRUD - Create Read Update Delete is a set of operations performed on data records. This applies mainly when dealing with databases.

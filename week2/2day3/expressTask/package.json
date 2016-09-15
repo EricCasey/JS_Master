@@ -1,0 +1,21 @@
+{
+  "name": "ericsfirstexpessserver",
+  "version": "0.0.1",
+  "description": "just creating a server for lighthouse labs day 8",
+  "main": "express_server.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EricCasey/Lighthouse/tree/master/week2/2day3/expressTask/"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "EricCasey",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}

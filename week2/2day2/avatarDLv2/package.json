@@ -8,13 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EricCasey/Lighthouse/tree/master/week2/2day2/avatarDLv2"
+    "url": "https://github.com/EricCasey/avatarDLproject"
   },
   "author": "EricCasey",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "chalk": "^1.1.3",
     "clear": "0.0.1",
-    "mocha": "^3.0.2"
+    "dotenv": "^2.0.0",
+    "fs": "0.0.1-security",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
   }
 }

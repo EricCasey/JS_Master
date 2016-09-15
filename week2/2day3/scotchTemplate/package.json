@@ -1,0 +1,23 @@
+{
+  "name": "node-ejs",
+  "version": "0.0.1",
+  "description": "nope",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.6.1"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "not yet"
+  },
+  "keywords": [
+    "nope"
+  ],
+  "author": "EricCasey",
+  "license": "ISC",
+  "tutorialURL" : "https://scotch.io/tutorials/use-ejs-to-template-your-node-application"
+}

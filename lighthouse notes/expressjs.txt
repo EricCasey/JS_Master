@@ -1,0 +1,11 @@
+EXPRESS is a package that consolidates many server functions from the raw JS way
+
+const server =
+
+function ( req, res, next) {
+
+}
+
+server.use ()
+
+server.
