@@ -13,11 +13,14 @@ CRUD means the basic operations to be done in a data repository. You directly ha
 REST, on the other hand, operates on resource representations, each one identified by an URL. These are typically not data objects, but complex objects abstractions.
 
 
+
 CREATE
 > POST /tunes   // creates tunes
+> does have a body sometimes
 
 READ
 > GET /tunes    // reads /tunes
+> does not have a body
 
 UPDATE
 > PUT /tunes      //

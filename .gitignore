@@ -5,3 +5,5 @@ Vagrantfile
 *.png
 .env
 node_modules
+/mongodb-linux-i686-3.2.7
+*.tgz
