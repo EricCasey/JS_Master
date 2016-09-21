@@ -24,6 +24,7 @@ METHODS
 $("h1").text();   ----   returns the text within H1
 $("h2").text("this is now change");  ---- this replaces the text in H1
 $("div").find("li");     ---- finds that element within the other
+$("<div>")    --- creates a closed div element
 
 
 
@@ -57,15 +58,15 @@ data-'name'     ---- in html: <li data-price='399.99'> adds aditionail informati
 
 
 .filter    ----
-.on
-.removeClass  ---
-.addClass
+.on('click', )   --- when this event listener happens
+.removeClass  --- removes a ('class') to the element
+.addClass  --- adds a ('class') to the element
 .val()
-.text()    ==== changes thext in the thing?
-.show()    ----
-.hide()    ---
+.text()    ==== changes text in the thing?
+.show()    ----  shows thing
+.hide()    ---  hides thing
 
-event.preventDefault();   --- prevents browsers defaults?
+event.preventDefault();   --- prevents browsers default actions
 
 
 LISTENING TO DOM EVENTS
@@ -110,5 +111,3 @@ ANIMATIONS
 .animate()    --- then you can send in styles and it'll animate to that setting
 
 .hasClass()    --- checks if an element hold a chosen class
-
-

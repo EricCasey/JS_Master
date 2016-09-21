@@ -1,5 +1,18 @@
+Mongo is a Document-stores database
+SQL is a Relational-stores database
+.. many more exist!
 
+MONGO
+  database -> facebook_database
+    collection -> users, photos, posts
+      document -> specific user (looks like a JSON file)
+      >each document has an automatic _id='felk34yuigo8g78y3'
 
+Relational-stores-type
+  databases
+    tables -> users, photos, posts,
+      rows -> specific user
+      > specify the structure of the the database ("schema")
 
 
 

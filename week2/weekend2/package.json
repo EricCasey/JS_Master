@@ -1,0 +1,23 @@
+{
+  "name": "tpbfun",
+  "version": "0.0.1",
+  "description": "none",
+  "main": "tpb.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "none",
+  "license": "ISC",
+  "dependencies": {
+    "imdb-api": "^2.0.0",
+    "thepiratebay": "^1.2.0",
+    "youtube-node": "^1.3.0"
+  }
+}

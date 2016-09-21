@@ -1,0 +1,3 @@
+cookies / logins / sessions
+
+if you need cookies use https
